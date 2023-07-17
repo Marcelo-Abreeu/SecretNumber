@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
-
 :root{
-    --font-family: 'Josefin Sans', sans-serif;
-    --bg-color: #D7BBF5;
-    --primary-color: #6528F7;
+    --font-family: 'Gilroy', sans-serif;
+    --primary-color: hsl(224, 53%, 10%);
 }
 
 body{
-    background-color: var(--font-family);
+    background: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: var(--primary-color);
     
     font-family: var(--font-family);
@@ -21,12 +21,29 @@ body{
     text-align: center;
 }
 
+.color{
+    color: hsl(357, 100%, 75%);
+}
+
+span.acertou, #menor-valor, #maior-valor{
+    color:  hsl(357, 100%, 75%);
+    font-weight: 700;
+
+    text-shadow: 5px 4px 10px hsl(357, 100%, 75%);
+}
+
 h1{
     font-size: 5em;
+    font-weight: 700;
 }
 
 h2{
     font-size: 4em;
+}
+
+h2.acertou{
+    font-weight: 700;
+    font-size: 5em;
 }
 
 h3{
@@ -46,5 +63,38 @@ h3{
 
     display: inline-block;
     font-size: 4em;
+    font-weight: bold;
+}
 
+.btn-jogar{
+    background-color:  hsl(357, 100%, 75%);
+    color: white;
+
+    font-weight: bold;
+    font-size: 19px;
+
+    border: none;
+    transition: .2s linear;
+
+    margin-top: 30px;
+    padding: 15px;
+
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 7px 7px 3px 0px  hsl(357, 55%, 68%);
+}
+
+.btn-jogar:hover{
+    opacity: .9;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.9em;
+        padding: 10px;
+    }
+
+    span.color{
+        display: block;
+    }
 }

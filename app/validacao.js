@@ -15,18 +15,18 @@ function verificaSeOChutePossuiUmValorValido(chute) {
 
     if (numero === numeroSecreto) {
         document.body.innerHTML = `
-            <h2>Você acertou!</h2>
-            <h3>O número secreto era ${numeroSecreto}</h3>
+            <h2 class="acertou">Você acertou!</h2>
+            <h3>O número secreto era <span class="acertou">${numeroSecreto}</span></h3>
 
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
         `
     } else if (numero > numeroSecreto) {
         elementoChute.innerHTML += `
-        <div>O número secreto é menor <fa-sharp fa-solid fa-angle-down></i></div>
+        <div>O número secreto é menor <i class="fa-sharp fa-solid fa-angle-down color"></i></div>
         `
     } else {
         elementoChute.innerHTML += `
-        <div>O número secreto é maior <fa-sharp fa-solid fa-angle-up></i></div>
+        <div>O número secreto é maior <i class="fa-sharp fa-solid fa-angle-up color"></i></div>
         `
     }
 }

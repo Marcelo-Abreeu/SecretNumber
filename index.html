@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Número Secreto</title>
+    <title>Secret Number With Voice</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="font/font.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <h1>Acerte o Número Secreto</h1>
+    <h1>Acerte o <span class="color"> Número Secreto </span></h1>
 
     <h3>O Número Secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span></h3>
 
-    <div id="chute" class="mensagem">
-        <!-- <div>Você disse:</div>
-        <span class="box" id="box">20</span>
-        <div>O número Secreto é maior <i class="fa-sharp fa-solid fa-angle-up"></i></div> -->
-    </div>
+    <div id="chute" class="mensagem"></div>
 
     <script src="app/sortear-numero.js"></script>
     <script src="app/reconhecimento-de-voz.js"></script>
