@@ -17,7 +17,8 @@ O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indican
 - Os jogadores podem interagir com o jogo usando comandos de voz para fazer suas tentativas de adivinhar o número.
 - O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indicando se o número é maior ou menor do que a tentativa atual.
 - Ao acertar o número correto, o jogador recebe uma mensagem de parabéns e assim encerra o jogo!
-- O jogador ao dizer Game over o jogo também acaba.
+- A pontuação do jogador é salva no LocalStorage para o mesmo ter mais inteação com o game.
+- O jogador ao dizer Game over o jogo acaba e sua pontuação e reiniciada.
 
 ## Compatibilidade Navegadores
 - [x] Chrome
