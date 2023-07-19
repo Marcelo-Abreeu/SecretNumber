@@ -21,6 +21,21 @@ body{
     text-align: center;
 }
 
+span#pontos{
+    background: hsl(357, 100%, 75%);
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10px 20px;
+    box-shadow: 4px 6px 7px hsl(357, 55%, 68%);
+    border-radius: 5px;
+    color: white;
+    text-shadow: 1px 2px 8px white;
+
+    position: absolute;
+    left: 1%;
+    top: 3%;
+}
+
 .color{
     color: hsl(357, 100%, 75%);
 }
