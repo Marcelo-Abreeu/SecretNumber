@@ -12,8 +12,12 @@ O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indican
 
 - Versão Final: [Secret-Number](https://marcelo-abreeu.github.io/Secret-Number/)
 
-## Funcionalidades
-
+## Como Jogar?
+- Os jogadores podem interagir com o jogo usando comandos de voz para fazer suas tentativas de adivinhar o número.
+- O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indicando se o número é maior ou menor do que a tentativa atual.
+- Ao acertar o número correto, o jogador recebe uma mensagem de parabéns e assim encerra o jogo!
+- O jogador ao dizer Game over o jogo também acaba.
+  
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
