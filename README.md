@@ -18,6 +18,13 @@ O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indican
 - O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indicando se o número é maior ou menor do que a tentativa atual.
 - Ao acertar o número correto, o jogador recebe uma mensagem de parabéns e assim encerra o jogo!
 - O jogador ao dizer Game over o jogo também acaba.
+
+## Compatibilidade Navegadores
+- [x] Chrome
+- [x] Edge
+- [ ] Firefox
+- [x] Opera
+- [x] Safari
   
 ## 🚀 Tecnologias
 
