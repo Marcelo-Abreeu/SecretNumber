@@ -6,9 +6,13 @@
 
 ## 📝 Descrição
 
-Um modelo de player de música, desenvolvido em javascript, o mesmo faz o uso de músicas que eu pessoalmente gosto.
+O jogo criado em JavaScript usando tecnologias de reconhecimento de voz.
+Os jogadores podem interagir com o jogo usando comandos de voz para fazer suas tentativas de adivinhar o número.
+O jogo fornece feedback em tempo real sobre as tentativas dos jogadores, indicando se o número é maior ou menor do que a tentativa atual.
 
 - Versão Final: [Secret-Number](https://marcelo-abreeu.github.io/Secret-Number/)
+
+## Funcionalidades
 
 ## 🚀 Tecnologias
 
